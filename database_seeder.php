@@ -3,8 +3,8 @@
 require_once __DIR__ . '/vendor/autoload.php';
 
 $dsn = 'mysql:host=localhost;dbname=user-management';
-$username = 'admin';
-$password = 'zaw123';
+$username = 'smth';
+$password = 'smth';
 
 try {
     $db = new PDO($dsn, $username, $password);
